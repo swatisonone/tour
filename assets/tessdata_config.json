@@ -1,0 +1,10 @@
+{
+  "files": [
+    "eng.traineddata",
+    "hin.traineddata",
+    "kor.traineddata",
+    "mar.traineddata",
+    "san.traineddata",
+    "urd.traineddata"
+  ]
+}

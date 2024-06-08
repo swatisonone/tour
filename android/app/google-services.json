@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "924981877407",
+    "project_id": "classchat-befef",
+    "storage_bucket": "classchat-befef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924981877407:android:f8432db6148d7c21bba0aa",
+        "android_client_info": {
+          "package_name": "com.example.tour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924981877407-13i4er53jdqlvaodtaqbv5nhhi97m21l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIrqj2F3DYQvUBA-aFhTkHbKCUqvVnmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924981877407-13i4er53jdqlvaodtaqbv5nhhi97m21l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "924981877407-es093ph0vq3hmhqa1e5oo1ndertva678.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tour"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924981877407:android:7d316e1811b8c9a3bba0aa",
+        "android_client_info": {
+          "package_name": "com.examples.classchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924981877407-injks4m7pmi5skl2ummtkcceingcietl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.examples.classchat",
+            "certificate_hash": "4d194af9975cf1f21223e630a176e43ab2479c66"
+          }
+        },
+        {
+          "client_id": "924981877407-13i4er53jdqlvaodtaqbv5nhhi97m21l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIrqj2F3DYQvUBA-aFhTkHbKCUqvVnmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924981877407-13i4er53jdqlvaodtaqbv5nhhi97m21l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "924981877407-es093ph0vq3hmhqa1e5oo1ndertva678.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tour"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

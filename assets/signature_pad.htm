@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signature Pad</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+    }
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <canvas></canvas>
+  <button data-action="clear">Clear</button>
+  <button id="save-png-button">Save as PNG</button>
+  <button id="save-svg-button">Save as SVG</button>
+  <script src="https://unpkg.com/signature_pad"></script>
+  <script>
+    var clearButton = document.querySelector("[data-action=clear]");
+    var savePngButton = document.querySelector("#save-png-button");
+    var saveSvgButton = document.querySelector("#save-svg-button");
+    var canvas = document.querySelector("canvas");
+    var signaturePad = new SignaturePad(canvas, {
+      minWidth: 1.5,
+      maxWidth: 4.0
+    });
+
+    clearButton.addEventListener("click", function (event) {
+      signaturePad.clear();
+    });
+
+    savePngButton.addEventListener("click", function (event) {
+      download(signaturePad.toDataURL(), "signature.png");
+    });
+
+    saveSvgButton.addEventListener("click", function (event) {
+      download(signaturePad.toDataURL("image/svg+xml"), "signature.svg");
+    });
+
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
+
+    function download(dataURL, filename) {
+      var blob = dataURLToBlob(dataURL);
+      var url = window.URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.style.display = "none";
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+    }
+
+    function dataURLToBlob(dataURL) {
+      var binary = atob(dataURL.split(",")[1]);
+      var array = [];
+      for (var i = 0; i < binary.length; i++) {
+        array.push(binary.charCodeAt(i));
+      }
+      return new Blob([new Uint8Array(array)], { type: "image/png" });
+    }
+
+    function resizeCanvas() {
+      var ratio = Math.max(window.devicePixelRatio || 1, 1);
+      canvas.width = canvas.offsetWidth * ratio;
+      canvas.height = canvas.offsetHeight * ratio;
+      canvas.getContext("2d").scale(ratio, ratio);
+    }
+  </script>
+</body>
+</html>
