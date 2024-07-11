@@ -1,6 +1,6 @@
 OCR Language translator for tourist 
-![img1](https://github.com/swatisonone/tour/assets/100404678/23af26e6-07c9-4bbf-ba5c-f6860fbeed05)
-![‫img3](https://github.com/swatisonone/tour/assets/100404678/9650132e-9694-4e4d-80a5-0fabd26ea9b0)
+![img1](https://github.com/swatisonone/tour/assets/100404678/23af26e6-07c9-4bbf-ba5c-f6860fbeed05),![‫img3](https://github.com/swatisonone/tour/assets/100404678/9650132e-9694-4e4d-80a5-0fabd26ea9b0)
+
 ![img2](https://github.com/swatisonone/tour/assets/100404678/d7b821a4-9ecd-48ed-b985-5844a458f77a)
 ![img4](https://github.com/swatisonone/tour/assets/100404678/d0f6db52-2b97-4672-8d54-7fc1e2113c5f)
 ![img5](https://github.com/swatisonone/tour/assets/100404678/6ddfa4d1-cb9a-4433-8670-3e3d31c416e1)
