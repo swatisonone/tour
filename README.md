@@ -41,19 +41,6 @@ The translation feature leverages the sequence-to-sequence model to translate te
 **Figure 9: Feedback Page**
 ![Feedback Page](https://github.com/swatisonone/tour/assets/100404678/c4253ded-48a5-4bc3-8197-2ad790b30e43)
 
-**Figure 10: Model Loss**
-![Model Loss](https://github.com/swatisonone/tour/assets/100404678/a44cba5a-eb71-47dd-ac8d-eae7aba33a60)
-
-**Figure 11: Model Accuracy**
-![Model Accuracy](https://github.com/swatisonone/tour/assets/100404678/70fbc02a-bb3d-44ae-92d5-9642e2946bef)
-
-### OCR Language Translator for Tourists
-
-The OCR language translator feature enables tourists to translate text from images taken during their visit to India. Users can choose images containing text in various languages (Marathi, Urdu, Sanskrit, Hindi) and translate them into English.
-
-**Figure 12: OCR Language Translator**
-![OCR Language Translator](https://github.com/swatisonone/tour/assets/100404678/d0f6db52-2b97-4672-8d54-7fc1e2113c5f)
-
 ### Conclusion
 
 The developed app successfully integrates multiple advanced features, including a sequence-to-sequence translation model, a virtual tour of Shaniwar Wada, and an OCR language translator. These features provide a comprehensive user experience, enabling multilingual communication and cultural exploration.  Overall, the app serves as a robust platform for tourists and users seeking to bridge language barriers and gain cultural insights.
