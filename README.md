@@ -7,7 +7,7 @@ In addition to the detailed evaluation of the translation model, the application
 The profile page allows users to manage their personal information, including their username, profile picture, and follower/following details. The interface is designed to be intuitive and user-friendly, ensuring a seamless experience.
 
 **Figure 1: Profile Page**
-<img src="https://github.com/swatisonone/tour/assets/100404678/fbf147a8-d28f-4c9f-8313-295a517fb6c" alt="Image Description" width="50%">
+![Profile](https://github.com/swatisonone/tour/assets/100404678/fbf147a8-d28f-4c9f-8313-295a517fb6c)
 
 
 #### Chatbot
